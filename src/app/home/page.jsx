@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Stacks = () => {
+const page = () => {
   return (
     <div>
-      
+      Portfolio
     </div>
   )
 }
 
-export default Stacks
+export default page

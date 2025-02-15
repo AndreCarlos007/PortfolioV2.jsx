@@ -10,6 +10,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        
+        colorCard: "var(--colorCard)",
+        colorBorder: "var(--colorBorder)"
       },
     },
   },
