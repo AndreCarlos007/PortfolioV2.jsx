@@ -101,7 +101,7 @@ const page = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full place-items-stretch">
                 <span style={{ opacity: 1, transform: "none" }}>
-                  <Link className="h-full w-full block" href="/projects">
+                  <Link className="h-full w-full block" href="/projects/tcclass">
                     <div className="group relative flex size-full rounded-md hover:shadow-2xl z-10 h-full">
                       <div className="absolute inset-px z-10 rounded-md bg-card  transition-colors"></div>
 
