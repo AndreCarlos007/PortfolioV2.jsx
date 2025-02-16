@@ -18,7 +18,7 @@ const Sidebar = () => {
           <div className="flex flex-col overflow-y-auto h-screen pb-16">
             <div className="w-full flex gap-4 items-center">
               <Image
-                className="rounded-full"
+                className="rounded-md"
                 src="/myPerfil.png"
                 alt="Minha foto de perfil"
                 width={40}
@@ -37,17 +37,15 @@ const Sidebar = () => {
                   className={`flex items-center p-2 gap-2 rounded-md hover:opacity-100 hover:bg-background transition-all duration-300 delay-75 hover:border-colorBorder
                     ${isActive("/") ? "bg-background opacity-100 border border-colorBorder" : "opacity-40 border border-transparent"}`}
                 >
-                  <svg
-                    stroke="currentColor"
-                    fill="currentColor"
-                    strokeWidth="0"
-                    viewBox="0 0 496 512"
-                    height="16"
-                    width="16"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M225.38 233.37c-12.5 12.5-12.5 32.76 0 45.25 12.49 12.5 32.76 12.5 45.25 0 12.5-12.5 12.5-32.76 0-45.25-12.5-12.49-32.76-12.49-45.25 0zM248 8C111.03 8 0 119.03 0 256s111.03 248 248 248 248-111.03 248-248S384.97 8 248 8zm126.14 148.05L308.17 300.4a31.938 31.938 0 0 1-15.77 15.77l-144.34 65.97c-16.65 7.61-33.81-9.55-26.2-26.2l65.98-144.35a31.938 31.938 0 0 1 15.77-15.77l144.34-65.97c16.65-7.6 33.8 9.55 26.19 26.2z"></path>
-                  </svg>
+                  <svg 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  width="16" 
+                  height="16" 
+                  fill="currentColor" 
+                  viewBox="0 0 256 256">
+                    <path d="M248,144a8,8,0,0,1-16,0,96.11,96.11,0,0,0-96-96c-1.4,0-2.8,0-4.18.1A80.06,80.06,0,0,0,56,128a64.07,64.07,0,0,0,64,64,44.05,44.05,0,0,0,44-44,32,32,0,0,0-32-32,8,8,0,0,0,0,16,16,16,0,0,1,16,16,28,28,0,0,1-28,28,48.05,48.05,0,0,1-48-48,64.07,64.07,0,0,1,64-64,80.09,80.09,0,0,1,80,80,88.1,88.1,0,0,1-88,88,96.11,96.11,0,0,1-96-96A104.11,104.11,0,0,1,136,32,112.12,112.12,0,0,1,248,144Z">
+                    </path>
+                    </svg>
 
                   <p className="text-sm">I&apos;m going home</p>
                 </div>
@@ -116,11 +114,29 @@ const Sidebar = () => {
                   <p className="text-sm">About me</p>
                 </div>
               </Link>
+
+              <Link href="/send-email" passHref>
+                <div
+                  className={`flex items-center p-2 gap-2 rounded-md hover:opacity-100 hover:bg-background transition-all duration-300 delay-75 hover:border-colorBorder
+                  ${isActive("/send-email") ? "bg-background opacity-100 border border-colorBorder" : "opacity-40 border border-transparent"}`}
+                >
+                  <svg 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  width="16" 
+                  height="16" 
+                  fill="currentColor" 
+                  viewBox="0 0 256 256">
+                    <path d="M231.4,44.34s0,.1,0,.15l-58.2,191.94a15.88,15.88,0,0,1-14,11.51q-.69.06-1.38.06a15.86,15.86,0,0,1-14.42-9.15L107,164.15a4,4,0,0,1,.77-4.58l57.92-57.92a8,8,0,0,0-11.31-11.31L96.43,148.26a4,4,0,0,1-4.58.77L17.08,112.64a16,16,0,0,1,2.49-29.8l191.94-58.2.15,0A16,16,0,0,1,231.4,44.34Z">
+                    </path>
+                    </svg>
+                  <p className="text-sm">Tell me pretty lies</p>
+                </div>
+              </Link>
             </div>
 
             <div className="flex flex-col gap-2 mt-4">
               <p className="text-sm opacity-40">Contacts</p>
-              <Link href="https://www.linkedin.com/in/andr%C3%A9-carloscx" target="_blank">
+              <Link href="https://www.linkedin.com/in/andr%C3%A9-carloscx" target="_blank" >
                 <div
                   className="flex items-center p-2 gap-2 rounded-md hover:opacity-100 hover:bg-background transition-all duration-300 delay-75 hover:border-colorBorder
                   border border-transparent opacity-40"
@@ -164,17 +180,15 @@ const Sidebar = () => {
                   className="flex items-center p-2 gap-2 rounded-md hover:opacity-100 hover:bg-background transition-all duration-300 delay-75 hover:border-colorBorder
                   border border-transparent opacity-40"
                 >
-                  <svg
-                    stroke="currentColor"
-                    fill="currentColor"
-                    strokeWidth="0"
-                    viewBox="0 0 448 512"
-                    height="16"
-                    width="16"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
-                  </svg>
+                  <svg 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  width="16" 
+                  height="16" 
+                  fill="currentColor" 
+                  viewBox="0 0 256 256">
+                    <path d="M232,64a32,32,0,1,0-40,31v17a8,8,0,0,1-8,8H96a23.84,23.84,0,0,0-8,1.38V95a32,32,0,1,0-16,0v66a32,32,0,1,0,16,0V144a8,8,0,0,1,8-8h88a24,24,0,0,0,24-24V95A32.06,32.06,0,0,0,232,64ZM64,64A16,16,0,1,1,80,80,16,16,0,0,1,64,64ZM96,192a16,16,0,1,1-16-16A16,16,0,0,1,96,192Z">
+                      </path>
+                      </svg>
                   <p className="text-sm">Github</p>
 
                   <div className="flex items-center justify-center p-1 ml-auto rounded-md border border-colorBorder">
@@ -197,6 +211,10 @@ const Sidebar = () => {
                   </div>
                 </div>
               </Link>
+            </div>
+
+            <div className="flex flex-col gap-2 mt-4">
+            <p className="text-sm opacity-40">Others</p>
             </div>
           </div>
         </div>
