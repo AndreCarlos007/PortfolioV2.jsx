@@ -79,9 +79,7 @@ const page = () => {
                                 React
                               </p>
                               <p className="opacity-60 text-xs">
-                                React is a JavaScript library for building
-                                dynamic user interfaces with reusable
-                                components.
+                              React is a library for dynamic UIs.
                               </p>
                             </div>
                           </div>
@@ -116,8 +114,7 @@ const page = () => {
                                 JavaScript
                               </p>
                               <p className="opacity-60 text-xs">
-                                JavaScript is a versatile programming language
-                                for web development.
+                              JavaScript is a versatile language for web development.
                               </p>
                             </div>
                           </div>
@@ -153,9 +150,7 @@ const page = () => {
                                 TypeScript
                               </p>
                               <p className="opacity-60 text-xs">
-                                TypeScript is a superset of JavaScript that adds
-                                static typing for improved code quality and
-                                maintainability.
+                              TypeScript adds static typing to JavaScript.
                               </p>
                             </div>
                           </div>
@@ -186,9 +181,7 @@ const page = () => {
                                 TailwindCSS
                               </p>
                               <p className="opacity-60 text-xs">
-                                TailwindCSS is a utility-first CSS framework
-                                that enables rapid custom design with
-                                pre-defined classes.
+                              TailwindCSS is a utility-first CSS framework.
                               </p>
                             </div>
                           </div>
@@ -244,9 +237,7 @@ const page = () => {
                                 Node.js
                               </p>
                               <p className="opacity-60 text-xs">
-                                Node.js is a JavaScript runtime environment on
-                                the server-side, built on V8, enabling fast and
-                                scalable applications.
+                              Node.js is a fast, server-side JavaScript runtime.
                               </p>
                             </div>
                           </div>
@@ -280,9 +271,7 @@ const page = () => {
                                 AdonisJS
                               </p>
                               <p className="opacity-60 text-xs">
-                                AdonisJS is a full-stack Node.js framework with
-                                built-in tools for authentication, routing, and
-                                ORM.
+                              AdonisJS is a full-stack Node.js framework.
                               </p>
                             </div>
                           </div>
@@ -313,9 +302,7 @@ const page = () => {
                                 MySQL
                               </p>
                               <p className="opacity-60 text-xs">
-                                MySQL is an open-source relational database
-                                management system (RDBMS) that uses SQL for
-                                querying and managing data.
+                              MySQL is an open-source relational database using SQL.
                               </p>
                             </div>
                           </div>
@@ -438,8 +425,7 @@ const page = () => {
                                 MongoDB
                               </p>
                               <p className="opacity-60 text-xs">
-                                MongoDB is a NoSQL database that stores data in
-                                flexible, JSON-like documents.
+                              MongoDB is a NoSQL database with JSON-like documents.
                               </p>
                             </div>
                           </div>
@@ -524,9 +510,7 @@ const page = () => {
                                 Python
                               </p>
                               <p className="opacity-60 text-xs">
-                                Python is a high-level, versatile programming
-                                language known for its simplicity and
-                                readability.
+                              Python is a simple, versatile programming language.
                               </p>
                             </div>
                           </div>
@@ -692,9 +676,7 @@ const page = () => {
                                 Visual Studio Code
                               </p>
                               <p className="opacity-60 text-xs">
-                                Visual Studio Code (VS Code) is a fast,
-                                open-source code editor with support for
-                                multiple languages, debugging, and extensions.
+                              VS Code is a fast, open-source code editor.
                               </p>
                             </div>
                           </div>
@@ -741,15 +723,13 @@ const page = () => {
                                 Figma
                               </p>
                               <p className="opacity-60 text-xs">
-                                Figma is a cloud-based design tool used for
-                                UI/UX design, prototyping, and collaboration in
-                                real-time.
+                              Figma is a cloud-based UI/UX design tool.
                               </p>
                             </div>
                           </div>
                         </div>
                       </span>
-                      
+
                     </div>
                   </div>
                 </div>

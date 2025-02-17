@@ -21,3 +21,18 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+
+::-webkit-scrollbar {
+  width: 4px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 4px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 2px;
+}
