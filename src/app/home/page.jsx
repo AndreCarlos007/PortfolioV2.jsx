@@ -5,8 +5,9 @@ import Image from "next/image";
 const page = () => {
   return (
     <div>
+      <div className="h-full w-[250px] hidden md:block"></div>
       <div className="flex-1 flex flex-col">
-        <main className="w-full flex justify-center pb-[7.5rem] py-[2.5rem] mx-auto md:my-[3.125rem] px-8 md:pb-0 md:max-w-4xl">
+        <main className="w-full flex justify-center pb-[120px] py-[40px] mx-auto md:my-[3.125rem] px-8 md:pb-0 md:max-w-4xl">
           <div className="flex flex-col">
             <span className="" style={{ opacity: 1, transform: "none" }}>
               <div className="flex ">
@@ -85,10 +86,10 @@ const page = () => {
                   </button>
                 </Link>
                 <Image
-                  className="ml-5 pointer-events-none"
+                  className=" w-12 sm:w-[80px] pointer-events-none"
                   src="/horse.AVIF"
                   alt="Meu unicornio animado"
-                  width={100}
+                  width={80}
                   height={50}
                 />
               </div>

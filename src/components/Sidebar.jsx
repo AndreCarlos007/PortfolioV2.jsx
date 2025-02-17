@@ -9,12 +9,14 @@ const Sidebar = () => {
 
   return (
     <div>
+      <div className="h-full w-[250px] hidden md:block"></div>
       <div
-        className="size-full rounded-md hidden md:flex flex-col py-4 px-4 mx-4 mt-4 fixed top-0 h-[calc(100vh-30px)] overflow-y-hidden min-w-[250px]
+        className="size-full rounded-md hidden md:flex flex-col py-4 px-4 mx-4 mt-4 fixed top-0 h-[calc(100vh-30px)]  min-w-[250px]
         max-w-[250px] gap-4 z-50 bg-colorCard border border-colorBorder"
       >
-        <div className="absolute inset-px z-10 rounded-md bg-colorCard transition-colors"></div>
+        <div className="absolute inset-px z-10 rounded-md bg-colorCard overflow-y-hidden transition-colors"></div>
         <div className="relative z-30 w-full">
+        
           <div className="flex flex-col overflow-y-auto h-screen pb-16">
             <div className="w-full flex gap-4 items-center">
               <Image
@@ -28,6 +30,9 @@ const Sidebar = () => {
               <div className="flex flex-col">
                 <p className="font-semibold whitespace-nowrap">André Carlos</p>
                 <p className="opacity-60 text-sm whitespace-nowrap">Dev. FullStack</p>
+              </div>
+              <div>
+                
               </div>
             </div>
 
