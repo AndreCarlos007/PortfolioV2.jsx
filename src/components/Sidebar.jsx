@@ -165,7 +165,7 @@ const Sidebar = () => {
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      class="lucide lucide-external-link"
+                      
                     >
                       <path d="M15 3h6v6"></path>
                       <path d="M10 14 21 3"></path>
