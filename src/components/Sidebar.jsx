@@ -36,7 +36,7 @@ const Sidebar = () => {
               </div>
             </div>
 
-            <div className="flex flex-col gap-2 mt-4">
+            <div className="flex flex-col gap-2 mt-4 ">
               <Link href="/" passHref>
                 <div
                   className={`flex items-center p-2 gap-2 rounded-md hover:opacity-100 hover:bg-background transition-all duration-300 delay-75 hover:border-colorBorder
@@ -224,6 +224,49 @@ const Sidebar = () => {
           </div>
         </div>
       </div>
+      <div className="grid grid-cols-5 gap-1 p-2 w-full fixed bottom-0 left-0 right-0 bg-colorCard border-colorBorder
+      md:hidden z-50">
+        <Link href="/">
+        <button className={`flex-col h-full p-3 rounded-md flex items-center justify-center transition-colors
+        ${isActive("/") ? "bg-background" : "bg-none"}`}>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 256 256"><path d="M248,144a8,8,0,0,1-16,0,96.11,96.11,0,0,0-96-96c-1.4,0-2.8,0-4.18.1A80.06,80.06,0,0,0,56,128a64.07,64.07,0,0,0,64,64,44.05,44.05,0,0,0,44-44,32,32,0,0,0-32-32,8,8,0,0,0,0,16,16,16,0,0,1,16,16,28,28,0,0,1-28,28,48.05,48.05,0,0,1-48-48,64.07,64.07,0,0,1,64-64,80.09,80.09,0,0,1,80,80,88.1,88.1,0,0,1-88,88,96.11,96.11,0,0,1-96-96A104.11,104.11,0,0,1,136,32,112.12,112.12,0,0,1,248,144Z"></path></svg>
+          <p className="text-sm hidden sm:block opacity-100">Home</p>
+        </button>
+        </Link>
+
+          <Link href="/projects">
+        <button className={`flex-col h-full p-3 rounded-md flex items-center justify-center transition-colors
+        ${isActive("/projects") ? "bg-background" : "bg-none"}`}>
+          <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 20 20" aria-hidden="true" height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z"></path></svg>
+          <p className="text-sm hidden sm:block opacity-100">Projects</p>
+        </button>
+          </Link>
+
+          <Link href="/stacks">
+        <button className={`flex-col h-full p-3 rounded-md flex items-center justify-center transition-colors
+        ${isActive("/stacks") ? "bg-background" : "bg-none"}`}>
+          <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 16 16" height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.6.6 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.6.6 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.6.6 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535z"></path><path d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.6.6 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0z"></path></svg>
+          <p className="text-sm hidden sm:block opacity-100">Stacks</p>
+        </button>
+        </Link>
+
+          <Link href="/about-me">
+        <button className={`flex-col h-full p-3 rounded-md flex items-center justify-center transition-colors
+        ${isActive("/about-me") ? "bg-background" : "bg-none"}`}>
+          <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path></svg>
+          <p className="text-sm hidden sm:block opacity-100">About</p>
+        </button>
+        </Link>
+
+          <Link href="/send-email">
+        <button className={`flex-col h-full p-3 rounded-md flex items-center justify-center transition-colors
+        ${isActive("/send-email") ? "bg-background" : "bg-none"}`}>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 256 256"><path d="M231.4,44.34s0,.1,0,.15l-58.2,191.94a15.88,15.88,0,0,1-14,11.51q-.69.06-1.38.06a15.86,15.86,0,0,1-14.42-9.15L107,164.15a4,4,0,0,1,.77-4.58l57.92-57.92a8,8,0,0,0-11.31-11.31L96.43,148.26a4,4,0,0,1-4.58.77L17.08,112.64a16,16,0,0,1,2.49-29.8l191.94-58.2.15,0A16,16,0,0,1,231.4,44.34Z"></path></svg>
+          <p className="text-sm hidden sm:block opacity-100">Email</p>
+        </button>
+        </Link>
+      </div>
+      
     </div>
   );
 };

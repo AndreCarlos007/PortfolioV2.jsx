@@ -4,7 +4,7 @@ import Home from './home/page.jsx';
 
 const Page = () => {
   return (
-    <div className="">
+      <div className="">
         <Home/>
       </div>
   );
