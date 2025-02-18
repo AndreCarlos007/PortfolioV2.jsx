@@ -66,7 +66,7 @@ const page = () => {
                     scale: { type: "spring", visualDuration: 0.4, bounce: 0.0 },
                   }}
                 >
-                  <p className="text-sm opacity-60 my-4">06/02/2005</p>
+                  <p className="text-sm opacity-60 my-4">06/02/2025</p>
                 </motion.div>
               </span>
 

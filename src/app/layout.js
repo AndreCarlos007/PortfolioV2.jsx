@@ -2,7 +2,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "../styles/globals.css";
 import Sidebar from "@/components/Sidebar";
 
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -25,6 +24,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex h-screen`}
       >
         <Sidebar />
+        
         <div className="flex-1 overflow-y-auto">
         {children}
         </div>
