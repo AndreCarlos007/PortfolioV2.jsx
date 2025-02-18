@@ -10,7 +10,7 @@ const page = () => {
           <div className="flex flex-col gap-6">
             <span className="" style={{ opacity: 1, transform: "none" }}>
               <div className="flex flex-col gap-2">
-                <h1 className="text-2xl md:text-4xl font-semibold leading-10 text-pretty">
+                <h1 translate="no" className="text-2xl md:text-4xl font-semibold leading-10 text-pretty">
                   Stack&apos;s
                 </h1>
                 <p className="opacity-60">List of my skills</p>

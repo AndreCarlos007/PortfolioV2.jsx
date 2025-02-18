@@ -11,16 +11,16 @@ const page = () => {
           <div className="flex flex-col">
             <span className="" style={{ opacity: 1, transform: "none" }}>
               <div className="flex ">
-                <h1 className=" md:text-4xl text-2xl font-semibold leading-10 text-pretty">
+                <h1 className=" md:text-4xl text-lg font-semibold  leading-10 text-pretty">
                   Make anything possible with,
                 </h1>
               </div>
-              <div className="flex gap-2">
+              <div className="flex gap-1 items-center ">
                 <span className=" md:text-4xl text-2xl font-semibold leading-10 text-pretty text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-red-500">
-                  Development
+                  Development 
                 </span>{" "}
-                <p className="md:text-4xl text-2xl font-semibold leading-10 text-pretty">
-                  Full Stack.
+                <p translate="no" className="md:text-4xl text-lg font-semibold  text-pretty">
+                  Full-Stack.
                 </p>
               </div>
 
@@ -72,7 +72,7 @@ const page = () => {
                 </Link>
 
                 <Link href="/send-email">
-                  <button className="inline-flex items-center justify-center rounded-md text-white/60 hover:text-white font-medium transition-colors  border border-colorBorder hover:bg-colorBorder text-xs px-[8px] py-[6px] gap-2">
+                  <button translate="no" className="inline-flex items-center justify-center rounded-md text-white/60 hover:text-white font-medium transition-colors  border border-colorBorder hover:bg-colorBorder text-xs px-[8px] py-[6px] gap-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="12"

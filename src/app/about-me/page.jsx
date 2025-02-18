@@ -31,7 +31,7 @@ const page = () => {
                       <div className="flex flex-col gap-4 h-full">
                         <div className="flex flex-col gap-1">
                           <div className="p-2 rounded-lg bg-[#262626] w-fit">
-                            <h1 className='text-2xl font-bold'>Technologist in Systems Analysis and Development</h1>
+                            <h1 className='text-xl md:text-2xl font-bold'>Technologist in Systems Analysis and Development</h1>
                           </div>
                           <div className="flex items-center gap-2 ">
                             <p className="text-base font-semibold">University center for science and technology in Maranhão - UniFacema</p>
