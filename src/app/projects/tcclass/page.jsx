@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div>
       <div className='flex-1 flex flex-col'>
-      <main className="w-full flex justify-center pb-[7.5rem] py-[2.5rem]  sm:mx-auto md:my-[3.125rem] px-8 md:pb-0 md:max-w-4xl">
+      <main className="w-full flex justify-center pb-[11.5rem] py-[2.5rem]  sm:mx-auto md:my-[3.125rem] px-8 md:pb-0 md:max-w-4xl">
             <div className='flex flex-col grow'>
                 <div>
                 <span className="" style={{ opacity: 1, transform: "none" }}>
