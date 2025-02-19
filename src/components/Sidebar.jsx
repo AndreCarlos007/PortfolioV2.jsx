@@ -260,6 +260,8 @@ const Sidebar = () => {
             <div className="flex flex-col gap-2 mt-4">
             <p className="text-sm opacity-40">Others</p>
             </div>
+
+                {/* outro conteudo */}
           </div>
         </div>
       </div>

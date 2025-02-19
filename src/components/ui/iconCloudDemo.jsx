@@ -1,0 +1,50 @@
+"use client"
+import IconCloud from "./iconCloud.jsx"
+
+const slugs = [
+  'react',
+  'typescript',
+  'javascript',
+  'html5',
+  'css3',
+  'nodedotjs',
+  'express',
+  'tailwindcss',
+  'nextdotjs',
+  'prisma',
+  'mongodb',
+  'vercel',
+  'docker',
+  'git',
+  'github',
+  'visualstudiocode',
+  'figma',
+  'linkedin',
+  'vite',
+  'windows',
+  'mysql',
+  'discord',
+  'axios',
+  'npm',
+  'laragon',
+  'prisma',
+  'adonisjs',
+  'claude',
+  'openai',
+  'supabase',
+  'firebase'
+  
+];
+
+export function IconCloudDemo() {
+  return (
+    <div
+      className="relative flex size-full max-w-lg items-center justify-center
+     border-none bg-[#171717]"
+    >
+      <IconCloud iconSlugs={slugs} />
+    </div>
+  );
+}
+
+export default IconCloudDemo

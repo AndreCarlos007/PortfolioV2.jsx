@@ -174,6 +174,36 @@ const page = () => {
               </span>
             </section>
 
+           {/* aqui */}
+           <span className="" style={{ opacity: 1, transform: "none" }}>
+              <motion.div
+                initial={{ opacity: 0, scale: 0 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{
+                  duration: 0.1,
+                  scale: { type: "spring", visualDuration: 0.4, bounce: 0.0 },
+                }}
+              >
+                <div className="flex flex-col gap-6 mt-6">
+                  <div className="relative group flex size-full rounded-md p-6 w-full z-10 hover:shadow-xl">
+                    <div className="absolute inset-px z-10 rounded-md bg-colorCard  transition-colors"></div>
+                    <div className="relative z-30 w-full">
+                    <iframe className="rounded-md" src="https://open.spotify.com/embed/playlist/1nq5Uu0LvLsTx9uEwUpuYB?utm_source=generator&theme=0" 
+                    width="100%" height="152" frameBorder="0" allowFullScreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+                    </div>
+                    <div
+                      className="pointer-events-none absolute inset-px z-10 rounded-md opacity-0 transition-opacity duration-300 group-hover:opacity-100 hidden md:block"
+                      style={{ opacity: 0.7 }}
+                    ></div>
+                    <div className="pointer-events-none absolute inset-0 rounded-md bg-colorCard border border-colorBorder duration-300 group-hover:opacity-100 hidden md:block"></div>
+                  </div>
+                </div>
+              </motion.div>
+            </span>
+
+
             <span className="" style={{ opacity: 1, transform: "none" }}>
               <motion.div
                 initial={{ opacity: 0, scale: 0 }}

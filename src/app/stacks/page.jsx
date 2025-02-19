@@ -18,7 +18,10 @@ const page = () => {
                   scale: { type: "spring", visualDuration: 0.4, bounce: 0.0 },
                 }}
               >
-                <div className="flex flex-col gap-2">
+                <div className="flex items-center ">
+                  <div className="flex flex-col">
+
+                  
                   <h1
                     translate="no"
                     className="text-2xl md:text-4xl font-semibold leading-10 text-pretty"
@@ -26,6 +29,8 @@ const page = () => {
                     Stack&apos;s
                   </h1>
                   <p className="opacity-60">List of my skills</p>
+                  </div>
+                  
                 </div>
               </motion.div>
             </span>

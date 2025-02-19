@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import IconCloudDemo from "@/components/ui/iconCloudDemo";
 
 const page = () => {
   return (
@@ -43,8 +44,7 @@ const page = () => {
                     href="/projects/tcclass"
                   >
                     <div className="group relative flex size-full rounded-md hover:shadow-2xl z-10 h-full">
-                      <div className="absolute inset-px z-10 rounded-md bg-card  transition-colors"></div>
-
+                      <div className="absolute inset-px z-10 rounded-md bg-colorCard  transition-colors"></div>
                       <div className="relative z-30 w-full">
                         <div className="flex flex-col h-full">
                           <div className="aspect-video w-full">
@@ -91,10 +91,10 @@ const page = () => {
                 <div className="flex flex-col gap-6 mt-6">
                   <div className="relative group flex size-full rounded-md p-6 w-full z-10 hover:shadow-xl">
                     <div className="absolute inset-px z-10 rounded-md bg-colorCard  transition-colors"></div>
-                    <div className="relative z-30 w-full">
+                    <div className="relative flex  z-30 w-full">
                       <div className="flex flex-col gap-4 h-full">
                         <div className="flex flex-col gap-1">
-                          <div className="p-2 rounded-lg bg-[#262626] w-fit">
+                          <div className="p-2 rounded-lg  w-fit">
                             <svg
                               stroke="currentColor"
                               fill="currentColor"
@@ -118,11 +118,18 @@ const page = () => {
                             Click for view my skills
                           </p>
                         </div>
+                        <div>
                         <Link href="/stacks">
                           <button className="inline-flex items-center justify-center rounded-md text-white/60 hover:text-white font-medium transition-colors  border border-colorBorder hover:bg-colorBorder text-xs px-[8px] py-[6px] gap-2">
                             View my skills
                           </button>
                         </Link>
+                    
+                          
+                        </div>
+                      </div>
+                      <div className=" w-[30%] sm:w-[50%] md:w-[18%] ml-[5rem]">
+                      <IconCloudDemo className="" />
                       </div>
                     </div>
                     <div
