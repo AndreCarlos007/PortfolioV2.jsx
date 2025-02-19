@@ -31,7 +31,7 @@ const Sidebar = () => {
               </Link>
               <div className="flex flex-col">
                 <p className="font-semibold whitespace-nowrap">André Carlos</p>
-                <p className="opacity-60 text-sm whitespace-nowrap">Dev. FullStack</p>
+                <p className="opacity-60 text-sm whitespace-nowrap" translate="no">Dev. FullStack</p>
               </div>
               <div>
                 
