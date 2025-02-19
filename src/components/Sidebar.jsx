@@ -19,6 +19,7 @@ const Sidebar = () => {
         
           <div className="flex flex-col overflow-y-auto h-screen pb-16">
             <div className="w-full flex gap-4 items-center">
+              <Link href="/myPerfil.png" target="_blank">
               <Image
                 className="rounded-md"
                 src="/myPerfil.png"
@@ -27,6 +28,7 @@ const Sidebar = () => {
                 height={40}
                 loading="lazy"
               />
+              </Link>
               <div className="flex flex-col">
                 <p className="font-semibold whitespace-nowrap">André Carlos</p>
                 <p className="opacity-60 text-sm whitespace-nowrap">Dev. FullStack</p>
