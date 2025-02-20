@@ -36,8 +36,8 @@ export const renderCustomIcon = (icon) => {
     icon,
     bgHex: '#f3f2ef',
     fallbackHex: '#6e6e73',
-    minContrastRatio: 1.2,
-    size: 50,
+    minContrastRatio: 100,
+    size: 70,
     aProps: {
       href: undefined,
       target: undefined,

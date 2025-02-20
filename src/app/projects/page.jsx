@@ -128,7 +128,7 @@ const page = () => {
                           
                         </div>
                       </div>
-                      <div className=" w-[30%] sm:w-[50%] md:w-[18%] ml-[5rem]">
+                      <div className=" w-[100%] sm:w-[59%] md:w-[18%] ml-[5rem]">
                       <IconCloudDemo className="" />
                       </div>
                     </div>
