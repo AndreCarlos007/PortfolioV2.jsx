@@ -51,7 +51,7 @@ const page = () => {
                             <Image
                               className="w-full h-full rounded-t-md object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300 delay-75"
                               loading="lazy"
-                              src="/release1.png"
+                              src="/Tclass.AVIF"
                               alt="Projeto TCCLass"
                               width={300}
                               height={300}
