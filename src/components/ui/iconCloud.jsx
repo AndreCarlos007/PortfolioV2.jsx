@@ -35,7 +35,7 @@ export const renderCustomIcon = (icon) => {
   return renderSimpleIcon({
     icon,
     bgHex: '#f3f2ef',
-    fallbackHex: '#6e6e73',
+    fallbackHex: '#ffffff',
     minContrastRatio: 100,
     size: 70,
     aProps: {
