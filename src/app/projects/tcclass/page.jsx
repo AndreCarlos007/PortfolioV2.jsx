@@ -119,7 +119,7 @@ const page = () => {
                           </div>
                           <div className=" flex flex-col md:flex-row gap-4">
                             <Link className="flex flex-col"
-                              href="https://tc-class-jsx.vercel.app/"
+                              href="https://tcclassnew.vercel.app/"
                               target="_blank"
                             >
                               
